@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import { ref } from 'vue';
+  import Test from '@/components/Test.vue';
 
   defineProps<{ msg: string }>();
 
@@ -8,6 +9,7 @@
 
 <template>
   <h1>{{ msg }}</h1>
+  <Test />
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>

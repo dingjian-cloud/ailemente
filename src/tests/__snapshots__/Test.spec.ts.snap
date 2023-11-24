@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test.vue 1`] = `
+"<div class=\\"test-container page-container\\">
+  <div class=\\"page-title\\">Unit Test Page</div>
+  <p>count is: 1</p><button>increment</button>
+</div>"
+`;
